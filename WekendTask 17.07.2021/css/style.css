@@ -1,0 +1,125 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6f7f8;
+    color: #808080;
+}
+.heading h2{
+    margin-top: 25px;
+}
+.heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: #696969;
+    margin-top: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+.heading .center{
+    height: 4px;
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+    background: #5192e1;
+    margin-top: 20px;
+}
+.heading .lorem{
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+ul{
+    justify-content: center;
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    color: #26313c;
+}
+ul li {
+    margin: 0 7px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #24cdd5;
+}
+ul li .active{
+    background-color: #24cdd5;
+    color: cornsilk;
+}
+.current {
+    color: #24cdd5;
+}
+#section .container .item img{
+width: 100%;
+transition: all 0.6s;
+}
+#section .container .item .media{
+    padding-top: 30px;
+    overflow: hidden;
+}
+.plannig h3{
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 23px;
+    color: #384141;
+}
+.planning p {
+    font-weight: normal;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#section .container .item .plannig{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px 30px;
+    background-color: #fff;
+    z-index: 5;
+    position: absolute;
+    bottom: -115px;
+    line-height: 20px;
+}
+.item{
+    position: relative;
+    margin-bottom: 100px;
+transition: all 0.6s;
+}
+
+.plannig a{
+    text-decoration: none;
+    position: relative;
+    color: #808080;
+}
+
+.plannig a:hover::after{
+    position: absolute;
+    content: ' ';
+    height: 2px;
+    width: 70%;
+    left: 0;
+    bottom: 0;
+    background-color: #3EABDC;
+
+      transition: 0.3s ease all .1s;
+}
+
+.plannig a::after{
+    position: absolute;
+    content: ' ';
+    height: 2px;
+    width: 70%;
+    left: 10%;
+    bottom: -9px;
+    background-color: #3EABDC;
+      transition: 0.3s ease all .1s;
+}
+
+.item:hover > .plannig h3{
+    cursor: pointer;
+    color: #24cdd5;
+
+ }
+.item:hover > .media img{
+   transform: scale(1.1);
+}
