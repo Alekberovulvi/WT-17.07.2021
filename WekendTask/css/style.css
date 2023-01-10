@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 2000px;
+    background-color: whitesmoke;
+}
+
+.left {
+    width: 48%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.left a img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: #696969;
+    background-color: white;
+    margin-bottom: 56px;
+}
+
+.title h1 {
+    text-align: center;
+    color: #696969;
+    font-size: 31px;
+    background-color: white;
+    font-weight: 500;
+    position: relative;
+}
+
+.title h1 ::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    bottom: -7px;
+}
+
+.title h1 span {
+    font-size: 25px;
+}
+
+.title p {
+    padding-left: 284px;
+    margin-bottom: 36px;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 25px;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+}
+
+.formgroup {
+    margin-bottom: 44px;
+    
+
+}
+.formgroup button {
+    background-color: aqua;
+}
+.formgroup input {
+    width: 100%;
+    background: border-box;
+    height: 35px;
+}
+
+.right {
+    width: 48%;
+    display: inline-block;
+    padding: 71px 40px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.right h3 {
+    text-align: inherit;
+    text-size-adjust: 50px;
+}
+
+.para p a {
+    text-decoration: none;
+}
+
+.formgroup p a {
+    text-decoration: none;
+    padding-left: 49px;
+}
+
+.formgroup p {
+    display: inline-block;
+}
+
+.formgroup button {
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 28px;
+    color: white;
+    border: 1px solid;
+    width: 116px;
+    height: 37px;
+}
+
+.formgroup button:hover {
+    color: rgb(45, 119, 153);
+}
